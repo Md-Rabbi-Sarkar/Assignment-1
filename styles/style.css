@@ -1,48 +1,74 @@
-.bannar-container{
+.bannar-container {
     text-align: center;
     background-image: url('/assets/Hero-bg.png');
+    width: 1400px;
+    height: 600px; ;
+    margin: auto;
+    position: relative;
 }
-.bannar-btn{
-    padding: 24px;
-    border-radius: 5px;
-    color: white;
-    background-color: black;
-    width: 200px;
-    margin-top: 32px;
+.span a{
+position:absolute;
+top:450px;
+left:45%;
+text-decoration: none;
+background-color: black;
+color: white;
+padding: 20px;
 }
-.why-section-container{
+.lern-more a{
+    color: black;
+    
+}
+.why-section-container {
+    display: flex;
+    flex-direction: column;
     border-radius: 16px;
     width: 1140px;
-
-background: rgba(13, 19, 33, 0.02);
-margin: auto;
+    height: 1550px;
+    gap: 10px;
+    background: rgba(13, 19, 33, 0.02);
+    margin: 50px auto;
 }
-.why-section{
+
+.why-section {
     text-align: center;
     margin-top: 100px;
+    padding: 40px;
 }
-.cause-container{
+
+.cause-container {
     display: flex;
     padding: 50px;
     justify-content: space-between;
+    width: 75%;
+    margin:auto;
+    /* border:1px solid black; */
+    background: linear-gradient(to right, rgb(255, 255, 255), rgba(13,19,33,0.0));
+    
 }
-.btn-sec{
+
+.btn-sec {
     border: 1px solid black;
-   padding: 12px;
+    padding: 12px;
 }
-.inspa-section{
+
+.inspa-section {
     text-align: center;
     margin: 100px auto;
 }
-iframe{
-    
+
+iframe {
+
     border: 0;
-    
+
     border-radius: 10px;
     margin: 50px 50px;
 }
-.youtube{
-    border:.5px solid black;
+
+.youtube {
+    border: .5px solid black;
     border-radius: 10px;
-    margin: 100px 245px ;
+    margin: 100px auto;
+    width: 1140px;
 }
+
