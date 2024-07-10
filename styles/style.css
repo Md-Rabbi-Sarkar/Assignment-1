@@ -1,6 +1,6 @@
 .bannar-container {
     text-align: center;
-    background-image: url('/assets/hero-bg.png');
+    background-image: url('../assets/hero-bg.png');
     width: 1400px;
     height: 600px; ;
     margin: auto;
@@ -112,7 +112,7 @@ iframe {
     margin: auto;
     width: 1140px;
     height: 200px;
-    background-image: url('/assets/hand-shake.jpg');
+    background-image: url('../assets/hand-shake.jpg');
     background-repeat: no-repeat;
     background-position: center;
     color: white;
