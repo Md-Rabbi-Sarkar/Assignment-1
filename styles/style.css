@@ -72,3 +72,37 @@ iframe {
     width: 1140px;
 }
 
+.next-section {
+    text-align: center;
+    margin:  auto 400px;
+}
+
+.next-section-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 50px;
+    gap: 40px;
+    width: 1140px;
+
+}
+
+.flex-1 {
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.flex-2 {
+    border-radius: 16px;
+    padding: 20px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.flex-3 {
+    border-radius: 16px;
+
+    background: rgba(255, 223, 0, 0.05);
+    padding: 20px;
+
+}
